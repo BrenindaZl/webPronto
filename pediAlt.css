@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+.container_pedido {
+    max-width: 500px; 
+    margin: 15px auto;
+    padding: 16px; 
+    height: 600px;
+}
+h1 {
+    font-size: 1.875rem; 
+    font-weight: bold; 
+    margin-bottom: 16px;
+    color: white;
+}
+.message-box {
+    background-color: white; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    padding: 16px; 
+}
+.message {
+    margin-bottom: 16px; 
+}
+.message-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.user-info {
+    display: flex; 
+    align-items: center;
+}
+
+.user-name {
+    font-size: 1.25rem; 
+    font-weight: bold;
+}
+.timestamp {
+    color: #4a5568;
+    font-size: 0.875rem;
+}
+.message-content {
+    margin-top: 8px;
+    color: #2d3748; 
+}
+.ellipsis-icon {
+    color: #4a5568; 
+}

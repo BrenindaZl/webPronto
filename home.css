@@ -1,0 +1,30 @@
+body {
+    margin: 15px;
+    padding: 0;
+    background-color: black;
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.carousel {
+    display: flex;
+    animation: scroll 10s linear infinite;  
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.725);
+    border: 2px solid #2d3748; 
+    background-color: rgba(255, 255, 255, 0.596);
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}

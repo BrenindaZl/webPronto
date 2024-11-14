@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url('cadastro.css');
+@import url('home.css');
+@import url('licitaçao.css');
+@import url('login.css');
+@import url('menu.css');
+@import url('tabela.css');
+@import url('telProf.css');
+@import url('pediAlt.css');
+@import url('telAdm.css');
+
+:root{
+    --cor-primary-1:#97ddef;
+    --cor-primary-2:#0796c6;
+    --cor-primary-3:#108d8f;
+    --cor-primary-4:#575758;
+    --cor-primary-5:#15dcc5;
+    --cor-neutra-1:#fff;
+    --cor-neutra-2:#000000;
+}
+
+*{
+    font-family: 'Roboto Serif', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth; 
+}
+
+body{
+    background-color: var(--cor-primary-4);
+}
+
+section{
+    padding: 28px 8%;
+}
+
+.btn-default{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3748; ;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--cor-neutra-1);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover{
+    background-color: var(--cor-primary-5);
+}
+
+
+
